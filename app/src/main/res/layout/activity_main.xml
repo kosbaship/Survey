@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity"
+            android:background="@color/colorPrimaryDark"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="8dp"
+        >
+        <TextView
+            android:id="@id/mainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/personal_info"
+            android:layout_weight="0.16"
+            android:textColor="@color/allTextColor"
+            android:textSize="20sp"
+            android:paddingTop="16dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/usr_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:ems="10"
+                android:hint="@string/hint_name"
+                android:inputType="textPersonName"
+                android:text="@string/empty"
+                android:textColorHint="@color/hintColor"
+                android:textColor="@color/allTextColor"
+                android:backgroundTint="@color/colorAccent"
+                />
+
+            <TextView
+                android:id="@+id/nameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:text="@string/usr_name"
+                android:textSize="20sp"
+                android:textColor="@color/allTextColor" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/usr_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:ems="10"
+                android:hint="@string/hint_field"
+                android:inputType="textPersonName"
+                android:text="@string/empty"
+                android:textColorHint="@color/hintColor"
+                android:textColor="@color/allTextColor"
+                android:backgroundTint="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/careerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:text="@string/usr_field"
+                android:textSize="20sp"
+                android:textColor="@color/allTextColor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/usr_collage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:ems="10"
+                android:hint="@string/hint_collage"
+                android:inputType="textPersonName"
+                android:text="@string/empty"
+                android:textColor="@color/allTextColor"
+                android:textColorHint="@color/hintColor"
+                android:backgroundTint="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/collageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:text="@string/usr_collage"
+                android:textSize="20sp"
+                android:textColor="@color/allTextColor"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/usr_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:ems="10"
+                android:hint="@string/hint_age"
+                android:textColor="@color/allTextColor"
+                android:inputType="textPersonName"
+                android:text="@string/empty"
+                android:textColorHint="@color/hintColor"
+                android:backgroundTint="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/ageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:text="@string/usr_age"
+                android:textSize="20sp"
+                android:textColor="@color/allTextColor" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/usr_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:ems="10"
+                android:hint="@string/hint_phone"
+                android:inputType="textPersonName"
+                android:textColor="@color/allTextColor"
+                android:text="@string/empty"
+                android:textColorHint="@color/hintColor"
+                android:backgroundTint="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/phoneText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:text="@string/usr_phone"
+                android:textSize="20sp"
+                android:textColor="@color/allTextColor" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/empty" />
+
+            <Button
+                android:id="@+id/next_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@drawable/btn_style"
+                android:text="@string/next"
+                android:textSize="28sp"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/empty" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.LinearLayoutCompat>

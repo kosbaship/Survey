@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">تقييمك يهمنا</string>
+    <string name="personal_info">ادخل معلوماتك الشخصية.</string>
+    <string name="usr_name">اكتب اسمك.</string>
+    <string name="usr_field">مجالك.</string>
+    <string name="usr_age">عمرك.</string>
+    <string name="usr_collage">جامعتك.</string>
+    <string name="usr_phone">رقم هاتفك.</string>
+    <string name="empty"></string>
+    <string name="hint_name">Mustafa El Sherbiny.</string>
+    <string name="hint_field">Database, Android, ...etc</string>
+    <string name="hint_collage">Commerce, engineering, ...etc</string>
+    <string name="hint_phone">(010) 234-5678-9</string>
+    <string name="hint_age">19</string>
+    <string name="next">التالي</string>
+    <string name="previous">السابق</string>
+    <string name="evluat_teach">قولنا رايك في المحاضر واسلوب الشرح.</string>
+    <string name="evluat_organize">رايك ايه ف التنظيم ؟</string>
+    <string name="comment">اكتب رساله او نصيحه.</string>
+    <string name="write_here">اكتب تعليقك هنا ...</string>
+    <string name="send_btn">ارسال بالبريد</string>
+    <string name="thankyou">
+        <b>شكرا</b> جدا علي وقت حضرتك لكتابه التقييم.\n\n
+
+        نتمني انك تكون استفدت معانا.\n\n
+
+        نامل ان تكون بالفعل تخطيت اول خطوه في مجال جديد. \n\n
+
+        <b>ربنا يرضي عنك ويرضيك.</b>
+    </string>
+</resources>

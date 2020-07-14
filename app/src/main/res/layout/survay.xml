@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+
+        <TextView
+            android:id="@+id/firstText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/evluat_teach"
+            android:layout_weight="0.05"
+            android:gravity="center"
+            android:textColor="@color/allTextColor"
+            android:paddingTop="16dp"
+            />
+
+        <EditText
+            android:id="@+id/evluat_teach_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/write_here"
+            android:layout_weight="0.15"
+            android:textColor="@color/allTextColor"
+            android:textColorHint="@color/hintColor"
+            android:backgroundTint="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/secondText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/evluat_organize"
+            android:layout_weight="0.05"
+            android:gravity="center"
+            android:textColor="@color/allTextColor"
+            android:paddingTop="16dp"/>
+
+        <EditText
+            android:id="@+id/evluat_organize_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/allTextColor"
+            android:hint="@string/write_here"
+            android:layout_weight="0.15"
+            android:textColorHint="@color/hintColor"
+            android:backgroundTint="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/thirdText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/comment"
+            android:layout_weight="0.05"
+            android:gravity="center"
+            android:textColor="@color/allTextColor"
+            android:paddingTop="16dp"/>
+
+        <EditText
+            android:id="@+id/comment_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/allTextColor"
+            android:hint="@string/write_here"
+            android:layout_weight="0.35"
+            android:textColorHint="@color/hintColor"
+            android:backgroundTint="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/previouse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/previous"
+                android:textColor="#FFF"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_style"
+                />
+
+            <Button
+                android:id="@+id/next_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/next"
+                android:textColor="#FFF"
+                android:textSize="28sp"
+                android:background="@drawable/btn_style" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
